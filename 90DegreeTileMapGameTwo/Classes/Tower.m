@@ -18,20 +18,14 @@
 
 // -----------------------------------------------------------------
 
-+ (instancetype)node
-{
-    return [[self alloc] init];
++ (id)spawnTower{
+    return [[self alloc] initWithTowerImage];
 }
 
-- (instancetype)init
-{
-    self = [super init];
-    NSAssert(self, @"Unable to create class %@", [self class]);
-    // class initalization goes here
-    
-    
-    
-    
+- (id)initWithTowerImage{
+    if (self = [super initWithImageNamed:@"tower.png"]) {
+        ;
+    }
     return self;
 }
 

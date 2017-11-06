@@ -11,7 +11,7 @@
 // -----------------------------------------------------------------
 
 #import "AppDelegate.h"
-#import "HelloWorldScene.h"
+#import "TileMapScene.h"
 
 // -----------------------------------------------------------------------
 
@@ -77,7 +77,7 @@
 
 - (CCScene *)startScene
 {
-	return [HelloWorldScene new];
+	return [TileMapScene scene];
 }
 
 // -----------------------------------------------------------------------

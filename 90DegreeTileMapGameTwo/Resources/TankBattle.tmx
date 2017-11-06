@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextobjectid="18">
+ <tileset firstgid="1" name="dg_grounds32" tilewidth="32" tileheight="32" tilecount="171" columns="9">
+  <image source="dg_grounds32.png" width="288" height="608"/>
+ </tileset>
+ <layer name="background" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VMQ5AQBCG0alpXMgNXNQtRSHRoNgVf+S9ZCrdfBlbBQAAAAAAAAAAAAAAAAAAAFA1dhza7XtcT6PHt44eQ+mRwH1k8X5kedrxfDF6vMN9ZNEjy91+l4fvevTnPrLokUWPLOd9To1DOz2y+F9l0QMAAAAAAAAAAAAAAAAAAAAA/mED+a+j/UCcAAA=
+  </data>
+ </layer>
+ <objectgroup name="ObjectLayer" visible="0">
+  <object id="11" name="StartPoint" x="1151.6" y="1567.69" width="32" height="32"/>
+  <object id="14" name="MonsterZone" x="1183.62" y="1471.5" width="192" height="32"/>
+  <object id="15" name="ChangeZone" x="960.64" y="1344.23" width="96" height="96"/>
+  <object id="17" name="DeadZone" x="1024.65" y="1696.42" width="512" height="64"/>
+ </objectgroup>
+ <layer name="tileLayer" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VMQoAMAgEMOcu/v+3XYt019IEDncPMQIAAAAAAAAAAAAAAAAAAAAgYl1Cn7p/ffTSxyz6mMX/AF6XR+iXZdLLfQAAAAAAAAAAAAAAAAAAAAAAAAA/23NQBgVAnAAA
+  </data>
+ </layer>
+</map>

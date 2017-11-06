@@ -19,10 +19,12 @@
 
 // -----------------------------------------------------------------
 // properties
+@property (nonatomic, strong) CCLabelTTF *label;
+@property (nonatomic, strong) CCLabelTTF *restartLabel;
 
 // -----------------------------------------------------------------
 // methods
-
++ (id)scene;
 + (instancetype)node;
 - (instancetype)init;
 

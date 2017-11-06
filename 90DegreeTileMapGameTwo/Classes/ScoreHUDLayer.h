@@ -19,12 +19,14 @@
 
 // -----------------------------------------------------------------
 // properties
+@property (nonatomic, strong) CCLabelTTF *scoreLabel;
 
 // -----------------------------------------------------------------
 // methods
 
 + (instancetype)node;
 - (instancetype)init;
+- (void)numCollectedChanged:(NSInteger)numCollected;
 
 // -----------------------------------------------------------------
 

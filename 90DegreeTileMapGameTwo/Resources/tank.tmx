@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" infinite="0" nextobjectid="4">
+ <tileset firstgid="1" name="dg_grounds32" tilewidth="32" tileheight="32" tilecount="171" columns="9">
+  <image source="dg_grounds32.png" width="288" height="608"/>
+ </tileset>
+ <tileset firstgid="172" name="game-events" tilewidth="32" tileheight="32" tilecount="3" columns="3">
+  <image source="game-events.png" width="96" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="isCollisions" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="isSpawnEnemy" value="YES"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="isCollectable" value="YES"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="BackgroundLayer" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YsQ3CMBBAUfdITMECrhiANrPQhRkYgAFo2ZIqEjodlnPROWfnF79w0uTlrFjKnFKaB+nk2GdlL0M4cOzpyAGzOkr3r4U85uHpaLmvLI6pI0fNflzrmHZ0XAK01eH57a0NBw6Ptp6DURyjzAPHeI6jnIMPh97GsljjwOHt6C3NId+9Np+W85DPWTsPHDhwjO84i7JyrfSvTXar7PmnrFy7/7R8e5d1rw4ZDhw4cOCI44iWxaHVch5aOHDgwIEjnmOEvg0ioPcQJwAA
+  </data>
+ </layer>
+ <layer name="GetThingLayer" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PQQ0AAAjEsPNvALt8EAGkTSZgCQAX1HTdlw8AAAAAAAAAYJ8G0spvgBAnAAA=
+  </data>
+ </layer>
+ <objectgroup name="ObjectLayer">
+  <object id="1" name="StartPoint" type="point" x="272.602" y="241.218" width="32" height="32"/>
+  <object id="2" name="EnemyPoint" type="ninja" x="717.836" y="273.655" width="32" height="32"/>
+  <object id="3" name="TowerPoint" type="point" x="592.683" y="110.498" width="32" height="32"/>
+ </objectgroup>
+ <layer name="EventLayer" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2WQQ6AMAgE+/+3VN/oxZOJZku3FGFJuE1Xp8Rgb611NdRojbDPc9azK/LlIY9IxfA4PvoP8zjvzubByN/5fUTz2L0rZ+40o0eEkkcsD2tF88gyD3nk89i9N0Z3jHX3sOfGzJMH59nMrGoekaviPOSxPk8enGczs0b2/or/C6YHyrI56z2+ZbDfj8khrDz8OISVhx+HsPLw4xC2okfkqjgPecxxCCsPPw5h5eHHIWw2jwx9ATsSx2sQJwAA
+  </data>
+ </layer>
+</map>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE05B7AD1FA0DFF7003B8DF1 /* ScoreHUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE05B7AC1FA0DFF7003B8DF1 /* ScoreHUDLayer.m */; };
+		DE05B7AF1FA0E576003B8DF1 /* alien-sfx.caf in Resources */ = {isa = PBXBuildFile; fileRef = DE05B7AE1FA0E56B003B8DF1 /* alien-sfx.caf */; };
 		DE0BCD531F9F0E2B00F8BB77 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0BCD521F9F0E2B00F8BB77 /* Default.png */; };
 		DE0BCD551F9F0E2B00F8BB77 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0BCD541F9F0E2B00F8BB77 /* Default@2x.png */; };
 		DE0BCD571F9F0E2B00F8BB77 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0BCD561F9F0E2B00F8BB77 /* Default-568h@2x.png */; };
@@ -203,11 +205,32 @@
 		DE0BD0001F9F0E2C00F8BB77 /* LICENSE_Chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = DE0BCFFF1F9F0E2C00F8BB77 /* LICENSE_Chipmunk.txt */; };
 		DE0BD0041F9F0E2C00F8BB77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0BD0031F9F0E2C00F8BB77 /* main.m */; };
 		DE0BD0081F9F0E2C00F8BB77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0BD0071F9F0E2C00F8BB77 /* AppDelegate.m */; };
-		DE0BD00B1F9F0E2C00F8BB77 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0BD00A1F9F0E2C00F8BB77 /* HelloWorldScene.m */; };
 		DE0BD00D1F9F0E2C00F8BB77 /* white_square.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0BD00C1F9F0E2C00F8BB77 /* white_square.png */; };
+		DE0BD0191F9F0EB500F8BB77 /* dg_grounds32.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0BD0171F9F0EAB00F8BB77 /* dg_grounds32.png */; };
+		DE0BD01B1F9F0EB500F8BB77 /* ninja.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0BD0181F9F0EAB00F8BB77 /* ninja.png */; };
+		DE0BD0211F9F0F3F00F8BB77 /* TileMapScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0BD0201F9F0F3F00F8BB77 /* TileMapScene.m */; };
+		DE0BD0261F9F127C00F8BB77 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0BD0251F9F127C00F8BB77 /* Player.m */; };
+		DE0BD0291F9F1A7A00F8BB77 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0BD0281F9F1A7A00F8BB77 /* Helper.m */; };
+		DE0BD02D1F9F334F00F8BB77 /* tank0.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0BD02B1F9F333300F8BB77 /* tank0.png */; };
+		DE0BD02E1F9F334F00F8BB77 /* tank1.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0BD02A1F9F333300F8BB77 /* tank1.png */; };
+		DE0BD02F1F9F334F00F8BB77 /* tankbullet.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0BD02C1F9F333400F8BB77 /* tankbullet.png */; };
+		DE795FB71F9F66DC00BE0171 /* orthogonal.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DE795FB61F9F668200BE0171 /* orthogonal.tmx */; };
+		DE795FB91F9F671D00BE0171 /* game-events.png in Resources */ = {isa = PBXBuildFile; fileRef = DE795FB81F9F671100BE0171 /* game-events.png */; };
+		DE795FBB1F9F689C00BE0171 /* TankBattle.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DE795FBA1F9F687200BE0171 /* TankBattle.tmx */; };
+		DE795FBD1F9F6E1400BE0171 /* tank.tmx in Resources */ = {isa = PBXBuildFile; fileRef = DE795FBC1F9F6DFC00BE0171 /* tank.tmx */; };
+		DEA91EB11FA1BFF000CD6026 /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA91EB01FA1BFF000CD6026 /* Enemy.m */; };
+		DEA91EB41FA1E33E00CD6026 /* TankBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA91EB31FA1E33E00CD6026 /* TankBullet.m */; };
+		DEB8CFBA1FA2FFEF00027C88 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB8CFB91FA2FFEF00027C88 /* GameOverScene.m */; };
+		DEB8CFC11FA311A500027C88 /* Tower.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB8CFC01FA311A500027C88 /* Tower.m */; };
+		DEB8CFC41FA3122F00027C88 /* tower.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB8CFC21FA3122400027C88 /* tower.png */; };
+		DEB8CFC51FA3122F00027C88 /* towerbullet.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB8CFC31FA3122400027C88 /* towerbullet.png */; };
+		DEB8CFC81FA3361100027C88 /* TowerBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB8CFC71FA3361100027C88 /* TowerBullet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE05B7AB1FA0DFF7003B8DF1 /* ScoreHUDLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ScoreHUDLayer.h; path = Classes/ScoreHUDLayer.h; sourceTree = "<group>"; };
+		DE05B7AC1FA0DFF7003B8DF1 /* ScoreHUDLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ScoreHUDLayer.m; path = Classes/ScoreHUDLayer.m; sourceTree = "<group>"; };
+		DE05B7AE1FA0E56B003B8DF1 /* alien-sfx.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "alien-sfx.caf"; path = "Resources/alien-sfx.caf"; sourceTree = "<group>"; };
 		DE0BCD4B1F9F0E2B00F8BB77 /* 90DegreeTileMapGameTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 90DegreeTileMapGameTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0BCD4F1F9F0E2B00F8BB77 /* libObjectiveChipmunk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveChipmunk.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0BCD521F9F0E2B00F8BB77 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
@@ -661,9 +684,34 @@
 		DE0BD0031F9F0E2C00F8BB77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		DE0BD0061F9F0E2C00F8BB77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		DE0BD0071F9F0E2C00F8BB77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		DE0BD0091F9F0E2C00F8BB77 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		DE0BD00A1F9F0E2C00F8BB77 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		DE0BD00C1F9F0E2C00F8BB77 /* white_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_square.png; path = Resources/white_square.png; sourceTree = "<group>"; };
+		DE0BD0171F9F0EAB00F8BB77 /* dg_grounds32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dg_grounds32.png; path = Resources/dg_grounds32.png; sourceTree = "<group>"; };
+		DE0BD0181F9F0EAB00F8BB77 /* ninja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ninja.png; path = Resources/ninja.png; sourceTree = "<group>"; };
+		DE0BD01F1F9F0F3F00F8BB77 /* TileMapScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TileMapScene.h; path = Classes/TileMapScene.h; sourceTree = "<group>"; };
+		DE0BD0201F9F0F3F00F8BB77 /* TileMapScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TileMapScene.m; path = Classes/TileMapScene.m; sourceTree = "<group>"; };
+		DE0BD0241F9F127C00F8BB77 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Classes/Player.h; sourceTree = "<group>"; };
+		DE0BD0251F9F127C00F8BB77 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Classes/Player.m; sourceTree = "<group>"; };
+		DE0BD0271F9F1A7A00F8BB77 /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Helper.h; path = Classes/Helper.h; sourceTree = "<group>"; };
+		DE0BD0281F9F1A7A00F8BB77 /* Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Helper.m; path = Classes/Helper.m; sourceTree = "<group>"; };
+		DE0BD02A1F9F333300F8BB77 /* tank1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tank1.png; path = Resources/tank1.png; sourceTree = "<group>"; };
+		DE0BD02B1F9F333300F8BB77 /* tank0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tank0.png; path = Resources/tank0.png; sourceTree = "<group>"; };
+		DE0BD02C1F9F333400F8BB77 /* tankbullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tankbullet.png; path = Resources/tankbullet.png; sourceTree = "<group>"; };
+		DE795FB61F9F668200BE0171 /* orthogonal.tmx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = orthogonal.tmx; path = Resources/orthogonal.tmx; sourceTree = "<group>"; };
+		DE795FB81F9F671100BE0171 /* game-events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "game-events.png"; path = "Resources/game-events.png"; sourceTree = "<group>"; };
+		DE795FBA1F9F687200BE0171 /* TankBattle.tmx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = TankBattle.tmx; path = Resources/TankBattle.tmx; sourceTree = "<group>"; };
+		DE795FBC1F9F6DFC00BE0171 /* tank.tmx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = tank.tmx; path = Resources/tank.tmx; sourceTree = "<group>"; };
+		DEA91EAF1FA1BFF000CD6026 /* Enemy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Enemy.h; path = Classes/Enemy.h; sourceTree = "<group>"; };
+		DEA91EB01FA1BFF000CD6026 /* Enemy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Enemy.m; path = Classes/Enemy.m; sourceTree = "<group>"; };
+		DEA91EB21FA1E33E00CD6026 /* TankBullet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TankBullet.h; path = Classes/TankBullet.h; sourceTree = "<group>"; };
+		DEA91EB31FA1E33E00CD6026 /* TankBullet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TankBullet.m; path = Classes/TankBullet.m; sourceTree = "<group>"; };
+		DEB8CFB81FA2FFEF00027C88 /* GameOverScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameOverScene.h; path = Classes/GameOverScene.h; sourceTree = "<group>"; };
+		DEB8CFB91FA2FFEF00027C88 /* GameOverScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameOverScene.m; path = Classes/GameOverScene.m; sourceTree = "<group>"; };
+		DEB8CFBF1FA311A500027C88 /* Tower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Tower.h; path = Classes/Tower.h; sourceTree = "<group>"; };
+		DEB8CFC01FA311A500027C88 /* Tower.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Tower.m; path = Classes/Tower.m; sourceTree = "<group>"; };
+		DEB8CFC21FA3122400027C88 /* tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tower.png; path = Resources/tower.png; sourceTree = "<group>"; };
+		DEB8CFC31FA3122400027C88 /* towerbullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = towerbullet.png; path = Resources/towerbullet.png; sourceTree = "<group>"; };
+		DEB8CFC61FA3361100027C88 /* TowerBullet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TowerBullet.h; path = Classes/TowerBullet.h; sourceTree = "<group>"; };
+		DEB8CFC71FA3361100027C88 /* TowerBullet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TowerBullet.m; path = Classes/TowerBullet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -718,6 +766,18 @@
 				DE0BCD761F9F0E2B00F8BB77 /* iTunesArtwork */,
 				DE0BCD781F9F0E2B00F8BB77 /* iTunesArtwork@2x */,
 				DE0BD00C1F9F0E2C00F8BB77 /* white_square.png */,
+				DE0BD0171F9F0EAB00F8BB77 /* dg_grounds32.png */,
+				DE795FB81F9F671100BE0171 /* game-events.png */,
+				DE795FB61F9F668200BE0171 /* orthogonal.tmx */,
+				DE795FBC1F9F6DFC00BE0171 /* tank.tmx */,
+				DE795FBA1F9F687200BE0171 /* TankBattle.tmx */,
+				DE0BD02B1F9F333300F8BB77 /* tank0.png */,
+				DE0BD02A1F9F333300F8BB77 /* tank1.png */,
+				DE0BD02C1F9F333400F8BB77 /* tankbullet.png */,
+				DEB8CFC21FA3122400027C88 /* tower.png */,
+				DEB8CFC31FA3122400027C88 /* towerbullet.png */,
+				DE0BD0181F9F0EAB00F8BB77 /* ninja.png */,
+				DE05B7AE1FA0E56B003B8DF1 /* alien-sfx.caf */,
 				DE0BCD5A1F9F0E2B00F8BB77 /* Icons */,
 			);
 			name = Resources;
@@ -1542,8 +1602,24 @@
 			children = (
 				DE0BD0061F9F0E2C00F8BB77 /* AppDelegate.h */,
 				DE0BD0071F9F0E2C00F8BB77 /* AppDelegate.m */,
-				DE0BD0091F9F0E2C00F8BB77 /* HelloWorldScene.h */,
-				DE0BD00A1F9F0E2C00F8BB77 /* HelloWorldScene.m */,
+				DE0BD01F1F9F0F3F00F8BB77 /* TileMapScene.h */,
+				DE0BD0201F9F0F3F00F8BB77 /* TileMapScene.m */,
+				DE05B7AB1FA0DFF7003B8DF1 /* ScoreHUDLayer.h */,
+				DE05B7AC1FA0DFF7003B8DF1 /* ScoreHUDLayer.m */,
+				DEB8CFB81FA2FFEF00027C88 /* GameOverScene.h */,
+				DEB8CFB91FA2FFEF00027C88 /* GameOverScene.m */,
+				DE0BD0241F9F127C00F8BB77 /* Player.h */,
+				DE0BD0251F9F127C00F8BB77 /* Player.m */,
+				DEA91EAF1FA1BFF000CD6026 /* Enemy.h */,
+				DEA91EB01FA1BFF000CD6026 /* Enemy.m */,
+				DEB8CFBF1FA311A500027C88 /* Tower.h */,
+				DEB8CFC01FA311A500027C88 /* Tower.m */,
+				DEA91EB21FA1E33E00CD6026 /* TankBullet.h */,
+				DEA91EB31FA1E33E00CD6026 /* TankBullet.m */,
+				DEB8CFC61FA3361100027C88 /* TowerBullet.h */,
+				DEB8CFC71FA3361100027C88 /* TowerBullet.m */,
+				DE0BD0271F9F1A7A00F8BB77 /* Helper.h */,
+				DE0BD0281F9F1A7A00F8BB77 /* Helper.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1623,24 +1699,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0BD02F1F9F334F00F8BB77 /* tankbullet.png in Resources */,
 				DE0BCD551F9F0E2B00F8BB77 /* Default@2x.png in Resources */,
+				DE05B7AF1FA0E576003B8DF1 /* alien-sfx.caf in Resources */,
 				DE0BD0001F9F0E2C00F8BB77 /* LICENSE_Chipmunk.txt in Resources */,
 				DE0BCD681F9F0E2B00F8BB77 /* Icon-120.png in Resources */,
 				DE0BCD5E1F9F0E2B00F8BB77 /* Icon@2x.png in Resources */,
 				DE0BCD701F9F0E2B00F8BB77 /* Icon-Small@2x.png in Resources */,
+				DEB8CFC51FA3122F00027C88 /* towerbullet.png in Resources */,
 				DE0BCD621F9F0E2B00F8BB77 /* Icon-72@2x.png in Resources */,
+				DE0BD0191F9F0EB500F8BB77 /* dg_grounds32.png in Resources */,
 				DE0BCD531F9F0E2B00F8BB77 /* Default.png in Resources */,
 				DE0BCD5C1F9F0E2B00F8BB77 /* Icon.png in Resources */,
+				DE0BD02D1F9F334F00F8BB77 /* tank0.png in Resources */,
+				DE795FBB1F9F689C00BE0171 /* TankBattle.tmx in Resources */,
 				DE0BCD6A1F9F0E2B00F8BB77 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
 				DE0BCD591F9F0E2B00F8BB77 /* Default-Landscape~ipad.png in Resources */,
 				DE0BCD6E1F9F0E2B00F8BB77 /* Icon-Small.png in Resources */,
 				DE0BCD6C1F9F0E2B00F8BB77 /* Icon-Small-50.png in Resources */,
 				DE0BD00D1F9F0E2C00F8BB77 /* white_square.png in Resources */,
+				DE795FB71F9F66DC00BE0171 /* orthogonal.tmx in Resources */,
+				DE795FB91F9F671D00BE0171 /* game-events.png in Resources */,
+				DE795FBD1F9F6E1400BE0171 /* tank.tmx in Resources */,
 				DE0BCD601F9F0E2B00F8BB77 /* Icon-72.png in Resources */,
 				DE0BCE5B1F9F0E2C00F8BB77 /* LICENSE_cocos2d.txt in Resources */,
+				DEB8CFC41FA3122F00027C88 /* tower.png in Resources */,
 				DE0BCE5E1F9F0E2C00F8BB77 /* CCEffectRenderer.h in Resources */,
+				DE0BD01B1F9F0EB500F8BB77 /* ninja.png in Resources */,
 				DE0BCD571F9F0E2B00F8BB77 /* Default-568h@2x.png in Resources */,
 				DE0BCD771F9F0E2B00F8BB77 /* iTunesArtwork in Resources */,
+				DE0BD02E1F9F334F00F8BB77 /* tank1.png in Resources */,
 				DE0BCF351F9F0E2C00F8BB77 /* LICENSE_CCBReader.txt in Resources */,
 				DE0BCD721F9F0E2B00F8BB77 /* Icon-Spotlight-iOS7.png in Resources */,
 				DE0BCD661F9F0E2B00F8BB77 /* Icon-76@2x.png in Resources */,
@@ -1657,6 +1745,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA91EB11FA1BFF000CD6026 /* Enemy.m in Sources */,
 				DE0BCECA1F9F0E2C00F8BB77 /* CCPlatformTextFieldIOS.m in Sources */,
 				DE0BCDCA1F9F0E2B00F8BB77 /* CCConfiguration.m in Sources */,
 				DE0BCEBE1F9F0E2C00F8BB77 /* CCTableView.m in Sources */,
@@ -1671,19 +1760,21 @@
 				DE0BCF5A1F9F0E2C00F8BB77 /* ALCaptureDevice.m in Sources */,
 				DE0BCE141F9F0E2B00F8BB77 /* CCPhysicsShape.m in Sources */,
 				DE0BCEFC1F9F0E2C00F8BB77 /* CCColor.m in Sources */,
+				DEB8CFC11FA311A500027C88 /* Tower.m in Sources */,
 				DE0BCDD21F9F0E2B00F8BB77 /* CCDrawNode.m in Sources */,
 				DE0BCF221F9F0E2C00F8BB77 /* CCBAnimationManager.m in Sources */,
 				DE0BCE111F9F0E2B00F8BB77 /* CCPhysicsNode.m in Sources */,
 				DE0BCF281F9F0E2C00F8BB77 /* CCBReader.m in Sources */,
 				DE0BCF821F9F0E2C00F8BB77 /* mach_timing.c in Sources */,
+				DE0BD0211F9F0F3F00F8BB77 /* TileMapScene.m in Sources */,
 				DE0BCF3E1F9F0E2C00F8BB77 /* OALActionManager.m in Sources */,
+				DE05B7AD1FA0DFF7003B8DF1 /* ScoreHUDLayer.m in Sources */,
 				DE0BCE681F9F0E2C00F8BB77 /* CCLightNode.m in Sources */,
 				DE0BCDA11F9F0E2B00F8BB77 /* CCCache.m in Sources */,
 				DE0BCF711F9F0E2C00F8BB77 /* ALWrapper.m in Sources */,
 				DE0BCEA21F9F0E2C00F8BB77 /* CCEffectNode.m in Sources */,
 				DE0BCE9F1F9F0E2C00F8BB77 /* CCEffectPixellate.m in Sources */,
 				DE0BCDC61F9F0E2B00F8BB77 /* CCClippingNode.m in Sources */,
-				DE0BD00B1F9F0E2C00F8BB77 /* HelloWorldScene.m in Sources */,
 				DE0BCF1F1F9F0E2C00F8BB77 /* CCAnimationManager.m in Sources */,
 				DE0BCEA51F9F0E2C00F8BB77 /* CCEffectStack.m in Sources */,
 				DE0BCE591F9F0E2C00F8BB77 /* cocos2d.m in Sources */,
@@ -1700,6 +1791,7 @@
 				DE0BCE0E1F9F0E2B00F8BB77 /* CCPhysicsJoint.m in Sources */,
 				DE0BCE201F9F0E2B00F8BB77 /* CCResponder.m in Sources */,
 				DE0BCDF31F9F0E2B00F8BB77 /* CCNode+Debug.m in Sources */,
+				DE0BD0261F9F127C00F8BB77 /* Player.m in Sources */,
 				DE0BCDEB1F9F0E2B00F8BB77 /* CCMotionStreak.m in Sources */,
 				DE0BCE451F9F0E2C00F8BB77 /* CCTexturePVR.m in Sources */,
 				DE0BCF511F9F0E2C00F8BB77 /* OALSimpleAudio.m in Sources */,
@@ -1728,6 +1820,7 @@
 				DE0BCD8E1F9F0E2B00F8BB77 /* NSValue+CCRenderer.m in Sources */,
 				DE0BCF6A1F9F0E2C00F8BB77 /* ALSoundSourcePool.m in Sources */,
 				DE0BCE3F1F9F0E2C00F8BB77 /* CCTexture.m in Sources */,
+				DEB8CFBA1FA2FFEF00027C88 /* GameOverScene.m in Sources */,
 				DE0BCE481F9F0E2C00F8BB77 /* CCTiledMap.m in Sources */,
 				DE0BCE1D1F9F0E2B00F8BB77 /* CCRenderTexture.m in Sources */,
 				DE0BCF8C1F9F0E2C00F8BB77 /* OALAudioFile.m in Sources */,
@@ -1741,12 +1834,14 @@
 				DE0BCDA51F9F0E2B00F8BB77 /* CCAction.m in Sources */,
 				DE0BCDDA1F9F0E2B00F8BB77 /* CCLabelBMFont.m in Sources */,
 				DE0BCF901F9F0E2C00F8BB77 /* OALTools.m in Sources */,
+				DEB8CFC81FA3361100027C88 /* TowerBullet.m in Sources */,
 				DE0BCF2E1F9F0E2C00F8BB77 /* CCBSequenceProperty.m in Sources */,
 				DE0BCEEB1F9F0E2C00F8BB77 /* CCGLView.m in Sources */,
 				DE0BCDB51F9F0E2B00F8BB77 /* CCActionManager.m in Sources */,
 				DE0BCEBB1F9F0E2C00F8BB77 /* CCSlider.m in Sources */,
 				DE0BCF481F9F0E2C00F8BB77 /* OALAudioTrack.m in Sources */,
 				DE0BCE4F1F9F0E2C00F8BB77 /* CCTiledMapObjectGroup.m in Sources */,
+				DE0BD0291F9F1A7A00F8BB77 /* Helper.m in Sources */,
 				DE0BCEF11F9F0E2C00F8BB77 /* NSEvent+CC.m in Sources */,
 				DE0BCDB81F9F0E2B00F8BB77 /* CCActionProgressTimer.m in Sources */,
 				DE0BCF0A1F9F0E2C00F8BB77 /* CGPointExtension.m in Sources */,
@@ -1789,6 +1884,7 @@
 				DE0BCEEE1F9F0E2C00F8BB77 /* CCWindow.m in Sources */,
 				DE0BCEDE1F9F0E2C00F8BB77 /* CCGLView.m in Sources */,
 				DE0BCE3A1F9F0E2C00F8BB77 /* CCSpriteFrameCache.m in Sources */,
+				DEA91EB41FA1E33E00CD6026 /* TankBullet.m in Sources */,
 				DE0BCE2A1F9F0E2B00F8BB77 /* CCScheduler.m in Sources */,
 				DE0BCDE41F9F0E2B00F8BB77 /* CCLayout.m in Sources */,
 				DE0BCF661F9F0E2C00F8BB77 /* ALListener.m in Sources */,
@@ -1892,6 +1988,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = UPW7LNWU79;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "90DegreeTileMapGameTwo/Supporting Files/Prefix.pch";
@@ -1900,6 +1997,7 @@
 					"\"$(SRCROOT)/$(PROJECT_NAME)/Libraries/Chipmunk/objectivec/include\"",
 				);
 				INFOPLIST_FILE = 90DegreeTileMapGameTwo/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/90DegreeTileMapGameTwo",
@@ -1922,6 +2020,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = UPW7LNWU79;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "90DegreeTileMapGameTwo/Supporting Files/Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -1929,6 +2028,7 @@
 					"\"$(SRCROOT)/$(PROJECT_NAME)/Libraries/Chipmunk/objectivec/include\"",
 				);
 				INFOPLIST_FILE = 90DegreeTileMapGameTwo/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/90DegreeTileMapGameTwo",
@@ -1998,6 +2098,7 @@
 				DE0BD0121F9F0E2C00F8BB77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE0BD0131F9F0E2C00F8BB77 /* Build configuration list for PBXNativeTarget "ObjectiveChipmunk" */ = {
 			isa = XCConfigurationList;
@@ -2006,6 +2107,7 @@
 				DE0BD0151F9F0E2C00F8BB77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

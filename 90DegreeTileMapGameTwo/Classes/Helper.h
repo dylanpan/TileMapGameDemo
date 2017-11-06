@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "cocos2d.h"
 
 @interface Helper : NSObject
+
++ (CGPoint) locationFromTouch:(CCTouch *)touch;
++ (CGPoint) screenCenter;
++ (CGSize)screenSize;
 
 @end

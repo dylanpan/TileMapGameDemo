@@ -13,6 +13,7 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 
+@class Player;
 // -----------------------------------------------------------------
 
 @interface Enemy : CCSprite
@@ -22,10 +23,8 @@
 
 // -----------------------------------------------------------------
 // methods
-
-+ (instancetype)node;
-- (instancetype)init;
-
++ (id)spwanEnemy;
+- (void)addEnemyInTileMap:(CCTiledMap *)tileMap tracingPlayer:(Player *)player;
 // -----------------------------------------------------------------
 
 @end

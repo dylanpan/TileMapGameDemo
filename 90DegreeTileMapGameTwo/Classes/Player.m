@@ -18,17 +18,18 @@
 
 // -----------------------------------------------------------------
 
-+ (instancetype)node
-{
-    return [[self alloc] init];
++ (id)spawnPlayer{
+    return [[self alloc] initWithPlayerImage];
 }
 
-- (instancetype)init
-{
+- (id)initWithPlayerImage{
     self = [super init];
     NSAssert(self, @"Unable to create class %@", [self class]);
     // class initalization goes here
     
+    if (self) {
+        self = [super initWithImageNamed:@"tank0.png"];
+    }
     
     
     

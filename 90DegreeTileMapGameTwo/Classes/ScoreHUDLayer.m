@@ -29,10 +29,19 @@
     NSAssert(self, @"Unable to create class %@", [self class]);
     // class initalization goes here
     
-    
-    
-    
+    if (self) {
+        CGSize screenSize = [[CCDirector sharedDirector] viewSize];
+        _scoreLabel = [CCLabelTTF labelWithString:@"0" fontName:@"Maker Felt" fontSize:16];
+        _scoreLabel.position = CGPointMake(screenSize.width * 0.5f,screenSize.height - _scoreLabel.contentSize.height * 0.5f);
+        _scoreLabel.color = [CCColor blackColor];
+        _scoreLabel.horizontalAlignment = CCTextAlignmentCenter;
+        [self addChild:_scoreLabel z:2 name:@"ScoreLabelNode"];
+    }
     return self;
+}
+
+- (void)numCollectedChanged:(NSInteger)numCollected{
+    _scoreLabel.string = [NSString stringWithFormat:@"%ld",(long)numCollected];
 }
 
 // -----------------------------------------------------------------

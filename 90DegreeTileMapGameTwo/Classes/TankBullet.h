@@ -13,6 +13,7 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 
+@class Enemy;
 // -----------------------------------------------------------------
 
 @interface TankBullet : CCSprite
@@ -22,9 +23,8 @@
 
 // -----------------------------------------------------------------
 // methods
-
-+ (instancetype)node;
-- (instancetype)init;
++ (id)spwanBullet;
+- (void)addBulletInTileMap:(CCTiledMap *)tileMap tracingEnemy:(Enemy *)enemy;
 
 // -----------------------------------------------------------------
 
